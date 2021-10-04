@@ -1,0 +1,8 @@
+javac -cp bin:lib/* -d bin src/hearthstone/Hearthstone.java
+java -Djava.net.useSystemProxies=true -cp bin:lib/* hearthstone.Hearthstone
+
+
+WINDOWS
+
+javac -classpath bin -sourcepath src -d bin src/hearthstone/Hearthstone.java
+java -classpath bin hearthstone.Hearthstone
