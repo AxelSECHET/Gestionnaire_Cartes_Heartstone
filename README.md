@@ -12,3 +12,4 @@ javac -cp bin:lib/* -d bin @classes.txt
 
 java -Djava.net.useSystemProxies=true -cp bin:lib/* hearthstone.Hearthstone
 
+!DEPRECATED!
